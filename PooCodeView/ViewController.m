@@ -33,14 +33,14 @@
 - (IBAction)judgeString:(id)sender
 {
     int result1 = [_pooCodeView.changeString compare:_myTextField.text options:NSCaseInsensitiveSearch];
-    if (result1 == 1) {
+    
+    if ((_pooCodeView.changeString.length == _myTextField.text.length ) && (result1 == 0)) {
+        NSLog(@"匹配正确");
+    }else{
         NSLog(@"验证码错误");
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             [_pooCodeView changeCode];
         });
-        
-    }else{
-        NSLog(@"匹配正确");
     }
 }
 
