@@ -1,5 +1,7 @@
 # PooCodeView
-##图形验证码，本地校验图形验证码，随机验证码图文校验，图文校验
+图形验证码，本地校验图形验证码，🌄 随机验证码图文校验，图文校验,提升安全性,防止移动App验证码被盗刷,频繁登录等;
+
+![](https://github.com/xiaohange/PooCodeView/blob/master/v1.gif?raw=true)
 
 ## Installation
 Drag all source files under floder `PooCodeView` to your project.
@@ -9,7 +11,6 @@ Drag all source files under floder `PooCodeView` to your project.
 ```
 #import "PooCodeView.h"
 @property (nonatomic, strong) PooCodeView *pooCodeView;
-
 ```
 ```
 //1.默认
