@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "PooCodeView"
-s.version      = "1.0.0"
+s.version      = "1.0.1"
 s.summary      = "Graphical verification code, local check graphics verification code, random verification code, graphic verification, text verification.🌄"
 s.homepage     = "https://github.com/xiaohange/PooCodeView"
 s.license      = { :type => "MIT", :file => "LICENSE" }
