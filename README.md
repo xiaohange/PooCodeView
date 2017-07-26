@@ -7,7 +7,9 @@
 - 1.0.0 基础版本提交 1.0.0  (2017.07.24)
 
 ## Installation
-Drag all source files under floder `PooCodeView` to your project.
+
+1. Drag all source files under floder `PooCodeView` to your project.
+2. pod "PooCodeView"
 
 ## Usage
 
